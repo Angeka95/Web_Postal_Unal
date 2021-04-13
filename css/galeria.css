@@ -1,0 +1,188 @@
+.contenedor_imagenes {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #333333;
+}
+
+.tit_seccion {
+	font-size: 10vh;
+	line-height: 10.5vh;
+	letter-spacing: 5px;
+	text-align: center;
+	color: #fff;
+	margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.btn_regresar{
+	font-weight: 700;
+    font-size: 1.9vh;
+    line-height: 2.3vh;
+    text-transform: uppercase;
+    color: #333333;
+    background-color: #fff;
+    width: 136px;
+    border-radius: 40px;
+    border: 0.5px solid #fff;
+    margin-left: 8px;
+    text-decoration: none !important;
+    padding: 18px 28px;
+    width: auto;
+    white-space: nowrap;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.btn_regresar:hover{
+	color: #fff !important;
+    background-color: #333333;
+    border: 0.5px solid #fff;
+}
+
+.cont_btn{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.contenido_postcard {
+	display: none;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -87%;
+    margin-top: 43%;
+    position: relative;
+    top: -30%;
+	height: 14.7vw;
+    overflow: hidden;
+	/* border: 1px solid red; */
+}
+
+.texto_postcard_galeria {
+	font-size: 2vh;
+	line-height: 2.5vh;
+	text-align: center;
+	color: #fff;
+	width: 90%;
+}
+
+.linea_postcard_galeria {
+	height: 2px;
+	border-bottom: 1px solid #fff;
+	width: 20%;
+	padding: 2% 0%;
+}
+
+.nombre_postcard_galeria {
+	font-size: 2vh;
+	line-height: 2.5vh;
+	text-align: center;
+	color: #fff;
+	width: 90%;
+	padding: 2% 0%;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.img_postcard_galeria {
+    width: 33.333333%;
+	cursor: pointer;
+	background-color: #000000;
+}
+
+.img_postcard_bg {
+	padding-bottom: 76.7%;
+	background-size: cover;
+}
+
+.img_postcard_bg:hover {
+	opacity: 0.1;
+}
+
+.img_postcard_galeria:hover .contenido_postcard {
+	display: flex;
+}
+#img_galeria_1 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg');
+}
+#img_galeria_2 {
+	background-image: url('../images/img_alargada_prueba.jpg');
+}
+#img_galeria_3 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg');
+}
+#img_galeria_4 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg');
+}
+#img_galeria_5 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg');
+}
+#img_galeria_6 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg');
+}
+#img_galeria_7 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg');
+}
+#img_galeria_8 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg');
+}
+#img_galeria_9 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(133).jpg');
+}
+#img_galeria_10 {
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg');
+}
+
+@media only screen and (orientation: landscape) and (max-width:800px) {
+
+
+
+.tit_seccion {
+	font-size: 10vw;
+	line-height: 10.5vw;
+}
+
+.texto_postcard_galeria {
+	font-size: 2vh;
+	line-height: 2.5vw;
+}
+
+.nombre_postcard_galeria {
+	font-size: 2vw;
+	line-height: 2.5vw;
+}
+
+
+
+
+	}
+
+@media only screen and (max-width:850px) {
+	.img_postcard_galeria {
+		width: 50%;
+	}
+	
+	.contenido_postcard {
+		/* margin-bottom: -80.5%; */
+		/* height: 18.7vw; */
+		margin-bottom: -94.5%;
+		height: 25.7vw;
+		top: -40%;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.img_postcard_galeria {
+		width: 100%;
+	}
+	
+	.contenido_postcard {
+		margin-bottom: -77.5%;
+		height: 34.7vw;
+		top: -30%;
+	}
+}

@@ -1,0 +1,5 @@
+main{position:relative}main.tx-unal-accesibilidad{position:absolute}main.tx-unal-accesibilidad .panel-content{padding:1em}
+#name-office {font-family: 'Ancizar sans'; padding: 10px 5% 10px 0px; text-align: right; background: #94b43b;}
+#name-office h2 {font-size: 1em; font-family: 'Ancizar sans'; color: #fff; font-weight: bold;}
+#name-office h2 a {color: #fff; font-family: 'Ancizar sans'; text-decoration: underline;}
+.tx-unal-accesibilidad {z-index: 2; width: 100%; left: 0; background-color: transparent; position: absolute; bottom: 0;}

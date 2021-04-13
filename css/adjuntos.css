@@ -1,0 +1,49 @@
+.nombre_archivo {
+    display: inline-block;
+    overflow: hidden;
+    padding: 3px 0px;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap;
+    max-width: 315px;
+    font-size: 1.6vh;
+    line-height: 1.6vh; 
+}
+
+.peso_archivo {
+    color: #777;
+    display: inline-block;
+    padding: 0px 3px;
+}
+
+.boton_cerrar {
+    cursor: pointer;
+    float: right;
+    height: 16px;
+    margin-top: 1px;
+    opacity: .5;
+    width: 16px;
+}
+
+.adjunto {
+    background-color: #f5f5f5;
+    border: 1px solid transparent;
+    font-weight: bold;
+    margin: 0 0 9px;
+    overflow-y: hidden;
+    padding: 4px 4px 4px 8px;
+    max-width: 448px;
+
+}
+
+.info_archivo {
+    float: left;
+    padding: 0 8px 0 0;
+    text-decoration: none;
+}
+
+.cont_adjunto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
