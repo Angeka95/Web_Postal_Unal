@@ -71,6 +71,12 @@ header a, a:visited {
     to {background-position:10000px 0;}
 }
 
+.animacion {
+	-webkit-animation: pulse 1s linear 0s infinite alternate;
+    -moz-animation: pulse 1s linear 0s infinite alternate;
+    -o-animation: pulse 1s linear 0s infinite alternate;
+    animation: pulse 1s linear 0s infinite alternate;
+}
 .stars, .twinkling, .clouds {
   position:absolute;
   top:0;
@@ -113,8 +119,12 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.espacio_movil {
+	padding-top: 0px;
+}
+
 .mapa {
-  width: 250%;
+  width: 200%;
   opacity: 1;
 }
 
@@ -176,7 +186,7 @@ body::-webkit-scrollbar {
 }
 
 .logo_sp{
-  width: 54%;
+  width: 94%;
   min-width: 160px;
 }
 
@@ -407,7 +417,7 @@ body::-webkit-scrollbar {
     width: 17%;
     box-shadow: 0px 8px 12px rgb(0 0 0 / 13%);
     height: 20%;
-    min-height: 260px;
+    min-height: 245px;
 }
 
 .contenedor_filtros::-webkit-scrollbar {
@@ -536,32 +546,32 @@ body::-webkit-scrollbar {
 }
 
 .punto_cultura {
-    top: 34.7%;
-    left: 109.5%;
-    width: 45%;
-    height: 14.6%;
-  z-index: 9;
+    top: 38.5%;
+    left: 87.8%;
+    width: 35.3%;
+    height: 13%;
+	z-index: 9;
     cursor: pointer;
-  overflow-y: hidden;
+	overflow-y: hidden;
 }
 
 .punto_cultura:hover .isla_cultura{
-  display: inline;
+	display: inline;
 }
 
 .isla_cultura {
 	width: 100%;
-  display: none;
+	display: none;
 }
 
 .punto_deporte {
-  top: 50.4%;
-  left: 76.2%;
-  width: 41%;
-  height: 14.6%;
-  z-index: 9;
-  cursor: pointer;
-  overflow-y: hidden;
+	top: 51.4%;
+    left: 61.2%;
+    width: 32.5%;
+    height: 12%;
+	z-index: 9;
+	cursor: pointer;
+	overflow-y: hidden;
 }
 
 .punto_deporte:hover .isla_deporte{
@@ -574,10 +584,10 @@ body::-webkit-scrollbar {
 }
 
 .punto_conocimiento {
-    top: 70%;
-    left: 75%;
-    width: 47%;
-    height: 16.8%;
+	top: 68.1%;
+    left: 60.5%;
+    width: 36.4%;
+    height: 14.1%;
   z-index: 9;
     cursor: pointer;
   overflow-y: hidden;
@@ -593,13 +603,13 @@ body::-webkit-scrollbar {
 }
 
 .punto_salud {
-  top: 56.2%;
-  left: 141.6%;
-  width: 37%;
-  height: 17.6%;
-  z-index: 9;
-  cursor: pointer;
-  overflow-y: hidden;
+	top: 56.2%;
+    left: 113.1%;
+    width: 30%;
+    height: 12.7%;
+	z-index: 9;
+	cursor: pointer;
+	overflow-y: hidden;
 }
 
 .punto_salud:hover .isla_salud{
@@ -612,13 +622,13 @@ body::-webkit-scrollbar {
 }
 
 .punto_naturaleza {
-    top: 18.4%;
-    left: 62.6%;
-    width: 56%;
-    height: 17.6%;
-  z-index: 9;
+    top: 24.6%;
+    left: 50.6%;
+    width: 44%;
+    height: 11%;
+	z-index: 9;
     cursor: pointer;
-  overflow-y: hidden;
+	overflow-y: hidden;
 }
 
 .punto_naturaleza:hover .isla_naturaleza{
@@ -632,13 +642,13 @@ body::-webkit-scrollbar {
 
 
 .punto_espacios {
-  top: 36.5%;
-  left: 187.9%;
-  width: 36%;
-  height: 17.6%;
-  z-index: 9;
-  cursor: pointer;
-  overflow-y: hidden;
+	top: 39.8%;
+    left: 150.8%;
+    width: 28.5%;
+    height: 14.6%;
+	z-index: 9;
+	cursor: pointer;
+	overflow-y: hidden;
 }
 
 .punto_espacios:hover .isla_espacios{
@@ -657,16 +667,16 @@ body::-webkit-scrollbar {
 
 
 .punto_publicacion_nueva {
-    top: 49.5%;
-    left: 117.6%;
-    width: 11%;
-    height: 3.5%;
-  z-index: 9;
+    top: 50.5%;
+    left: 91.6%;
+    width: 10%;
+    height: 3%;
+    z-index: 9;
     cursor: pointer;
-  overflow-y: hidden;
+    overflow-y: hidden;
     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .punto_publicacion:hover .contenedor_publicacion{
@@ -674,21 +684,30 @@ body::-webkit-scrollbar {
 }
 
 .contenedor_publicacion {
-  width: 30%;
+  width: 26%;
   cursor: pointer;
   position: relative !important;
 }
 
+.contenedor_publicacion:hover {
+    opacity: 0.5;
+}
+
 .contenedor_publicacion_nueva {
-  width: 38%;
-  height: 22%;
-  cursor: pointer;
-  position: relative !important;
+    width: 31%;
+    height: 22%;
+    cursor: pointer;
+    position: relative !important;
+	padding-top: 3px;
 }
 
 .img_publicacion {
   width: 100%;
   border-radius: 50%;
+}
+
+.img_publicacion:hover {
+    opacity: 0.5;
 }
 
 .contenedor_cta{
@@ -702,46 +721,44 @@ body::-webkit-scrollbar {
 
 
 .cta{
-  background-color: #333333;
-  width: auto;
-  color: #fff;
-  text-align: center;
-  font-size: 2vh;
-  line-height: 2.5vh;
-  padding: 10px;
-
+	background-color: #ffc107;
+    width: auto;
+    color: #333333;
+    text-align: center;
+    font-size: 2vh;
+    line-height: 2.5vh;
+    padding: 6px;
 }
 
+
 .punto_publicacion {
-  top: 44.5%;
-  left: 98.6%;
-  width: 14%;
-  height: 2%;
-  z-index: 9;
-  overflow-y: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+    top: 44.5%;
+    left: 86.6%;
+    width: 12%;
+    height: 4%;
+    z-index: 9;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .contenedor_nombre{
-  width:70%;
-  display: flex;
-  justify-content: center;
-  z-index: 9;
-  position: relative !important;
-  align-items: center;
-
+    width: 73%;
+    display: flex;
+    justify-content: left;
+    z-index: 9;
+    position: relative !important;
+    align-items: center;
+    padding-left: 6px;
 }
 
 .nombre{
-  width: auto;
-  color: #333333;
-  font-weight: 900;
-  font-size: 2vh;
-  line-height: 2.5vh;
-  padding: 10px;
-
+	width: auto;
+    color: #333333;
+    font-weight: 900;
+    font-size: 1.8vh;
+    line-height: 2.2vh;
 }
 
 
@@ -936,6 +953,10 @@ body::-webkit-scrollbar {
 .icon_publicacion{
   width:90%;
   cursor: pointer;
+}
+
+.icon_publicacion:hover{
+opacity: 0.5;
 }
 
 
@@ -1229,6 +1250,14 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (max-width:767px) {
+.espacio_movil {
+	padding-top: 80px;
+}
+
+  .login_sup {
+	top: 0px;  
+  }
+  
   .login_sup_cp {
       top: 54px;
   }
@@ -1262,7 +1291,7 @@ body::-webkit-scrollbar {
   
   .punto_publicacion_nueva {
 	width: 20%;
-    height: 7%;
+    height: 7.8%;
   }
   .contenedor_postcard{
     display: flex;
@@ -1318,7 +1347,7 @@ body::-webkit-scrollbar {
 	font-size: 1.7vh;
   }
   .mapa {
-    width: 250%;
+    width: 200%;
   }
 
   #unalTop {

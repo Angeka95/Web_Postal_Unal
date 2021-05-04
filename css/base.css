@@ -128,15 +128,29 @@ main.detalle {
 .contenedor_izq{
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 40%;
   padding-left: 7%;
   background-color: #333333;
+}
+
+.contenedor_identificador{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 12%;
+}
+
+.logo_proyecto{
+  width: 85%;
+  margin-left: 41%;
+  margin-top: 10%;
 }
 
 .identificador{
   display: flex;
   flex-wrap: wrap;
-  margin: 15% 0px 1% 0px
+  margin: 15% 0px 1% 0px;
+  display: none;
 }
 
 .identificador_proyecto{
@@ -157,22 +171,25 @@ main.detalle {
   letter-spacing: 0.2em;
 }
 .contenedor_descripcion{
-  width: 50%;
+  width: 90%;
   margin-bottom: 2%;
 
 }
 
 .descripcion_proyecto{
-  font-size: 2vh;
-  line-height: 2.5vh;
+font-size: 2.2vh;
+    line-height: 2.8vh;
   color: #fff;
+  text-align: center;
 
 }
 
 .contenedor_boton{
-  width: 100%;
-  margin-top: 5%;
-  margin-bottom: 15%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 20%;
 }
 
 .boton_ingresar{
@@ -181,7 +198,7 @@ main.detalle {
   text-transform: uppercase;
   color: #333333 !important;
   background-color: #fff;
-  padding: 2% 4%;
+  padding: 20px 20px;
   border-radius: 100px;
   border: 0.5px solid #fff;
 }
@@ -197,29 +214,33 @@ main.detalle {
 }
 
 .contenedor_linea{
-  width: 100%;
-  margin: 0% 0% 3% 0%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0% 3% 0%;
 
 }
 
 .linea_home{
   border-bottom: 3px #Fff solid;
   width: 20%;
+  display: none;
 }
 
 .contenedor_logo_somos{
-  width: 100%;
-  margin-top: 5%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .logo_somos{
-  width:17%;
+  width:20%;
 }
 
 
 .contenedor_der{
   display: flex;
-  width: 50%;
+  width: 60%;
 }
 
 .contenedor_img_home{
@@ -400,6 +421,13 @@ main.detalle {
 /*responsive*/
 @media screen and (max-width:1000px) {
 
+
+.logo_proyecto{
+  width: 70%;
+  margin-left: 25%;
+}
+
+
 .contenedor_der{
   display: none;
 }
@@ -435,6 +463,14 @@ main.detalle {
   width:100%;
 }
 
+.contenedor_identificador{
+  width: 100%;
+}
+
+.contenedor_boton{
+  width: 100%;
+}
+
 .contenedor_descripcion{
    display: flex;
     justify-content: center;
@@ -447,6 +483,7 @@ main.detalle {
 }
 
 .contenedor_linea {
+    width:100%;
     display: flex;
     justify-content: center;
 }
