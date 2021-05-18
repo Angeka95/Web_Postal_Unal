@@ -75,6 +75,7 @@
     <link rel="stylesheet" type="text/css" href="css/printer.css" media="print">
     <link rel="stylesheet" type="text/css" href="css/mapa.css">
     <link rel="stylesheet" type="text/css" href="css/adjuntos.css">
+    <link rel="stylesheet" type="text/css" href="css/islas.css">
     <!--end css unal-->
     
     <!--css external loader-->
@@ -428,7 +429,7 @@
 						</figure>
 					</div>
 				</div>
-                <div class="punto_deporte unselectable">
+                <div class="punto_deporte unselectable" onclick="$('#ModalDeportes').show()">
                     <div class="isla_deporte">
                         <figure>
                             <img src="images/deporte.png" class="img_isla">
@@ -613,6 +614,108 @@
 				</div>
             </div>
 
+        <!-- FIN MODAL-->
+		
+		<!-- MODAL ISLAS-->    
+            <div id="ModalDeportes" class="modal_home_islas">
+              <div class="modal_contenido_islas">                    
+					<div class="contenedor_cerrar_islas">
+						<a onclick="$('#ModalDeportes').hide(); cerrarModal();" class="modal_cerrar_islas pointer">X</a>
+					</div>
+					
+					<div class="contenedor_modal_islas">
+						<div class="contenido_islas">
+							<h3 class="titulo_islas">SOMOS DEPORTE</h3>
+						
+							<div class="video_islas">
+								<div class="embed-responsive embed-responsive-4by3">
+									<div class="videoWrapper">
+										<iframe id="vid_frame_islas" class="iframe_islas" width="700" height="315" src="https://www.youtube.com/embed/USM8QTFUKSU?mute=1&enablejsapi=1" frameborder="0" allowfullscreen  ></iframe>
+									</div>
+								</div>
+							</div>
+							
+							<div class="descripcion_islas">
+								<p class="texto_descripcion_islas">
+									El <strong class="area_islas">Área de Actividad Física y Deporte</strong> estimula la práctica de actividades de tipo recreativo, formativo y competitivo, en el marco del sano esparcimiento, la promoción de la salud, la utilización racional y formativa del tiempo libre y la implementación del deporte universitario.
+									<br/><br/>
+									Fomentamos la actividad física, el acondicionamiento físico dirigido y el rendimiento deportivo mediante la articulación de las actividades deportivas con la vida académica para apoyar la formación integral y afirmar el sentido de pertenencia hacia la Universidad.
+								</p>
+							</div>
+							
+							<div class="imagenes_islas">
+								<div class="div_imagen_islas" id="img_deportes_1">
+								</div>
+								<div class="div_imagen_islas" id="img_deportes_2">
+								</div>
+								<div class="div_imagen_islas" id="img_deportes_3">
+								</div>
+							</div>
+							
+							<div class="contenedor_datos_importancia">
+								<p class="titulo_datos_importancia">DATOS DE IMPORTANCIA EN ESTE AISLAMIENTO</p>
+								
+								<div class="datos_importancia_islas">
+									<div class="datos_islas">
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Programa de Promoción a la Actividad Física</p>
+											<p class="usos_dato_isla">Usos: <strong>24418</strong></p>
+											<p class="usuarios_dato_isla">Usuarios: <strong>4964</strong></p>
+										</div>
+										
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Programa de Acondicionamiento Físico</p>
+											<p class="usos_dato_isla">Usos: <strong>24859</strong></p>
+											<p class="usuarios_dato_isla">Usuarios: <strong>1933</strong></p>
+										</div>
+										
+										<div class="dato_islas_final">
+											<p class="nombre_dato_isla">Programa Deporte de Competencia</p>
+											<p class="usos_dato_isla">Usos: <strong>27684</strong></p>
+											<p class="usuarios_dato_isla">Usuarios: <strong>1765</strong></p>
+										</div>
+									</div>
+								</div>							
+							</div>
+							
+							<div class="contenedor_programacion">
+								<p class="titulo_programacion">CONOCE NUESTRA PROGRAMACIÓN</p>
+								<a class="enlace_programacion" href="#">Convocatorias</a>
+								<a class="enlace_programacion" href="#">Actividades Semanales</a>
+							</div>
+							
+							<div class="contenedor_redes_sociales">
+								<p class="titulo_redes_sociales">Síguenos en nuestras redes sociales</p>
+								<div class="botones_redes_sociales">
+									<a class="boton_redes_sociales">
+										<figure>
+											<img class="img_redes_sociales" alt="Facebook" src="images/facebook.png">
+										</figure>
+									</a>
+									<a class="boton_redes_sociales">
+										<figure>
+											<img class="img_redes_sociales" alt="Twitter" src="images/twitter.png">
+										</figure>
+									</a>
+									<a class="boton_redes_sociales">
+										<figure>
+											<img class="img_redes_sociales" alt="Youtube" src="images/youtube.png">
+										</figure>
+									</a>
+								</div>
+							</div>
+							
+							<div class="contenedor_contacto">
+								<p class="titulo_contacto">Contáctanos</p>
+								<p class="dato_contacto">DAFD: <strong class="correo_contacto">divrecd_bog@unal.edu.co</strong></p>
+								<p class="dato_contacto">Vitalízate: <strong class="correo_contacto">vitalizate@unal.edu.co</strong></p>
+								<p class="dato_contacto">Acondicionamiento físico: <strong class="correo_contacto">afdunal_bog@unal.edu.co</strong></p>
+								<p class="dato_contacto">Deporte de Competencia: <strong class="correo_contacto">oabohorqueza@unal.edu.co</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
         <!-- FIN MODAL-->
 
         <!-- MODAL PUBLICACION NUEVA-->    

@@ -1,0 +1,254 @@
+.modal_home_islas {
+    background-color: rgba(255,255,255,0.54);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    overflow-y: auto;
+}
+
+.contenedor_modal_islas {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.modal_contenido_islas {
+    background-color: #333333;
+    color: #fff;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgb(0 0 0);
+    width: 85%;
+    min-width: 450px;
+    /* padding: 10px 0px 40px 20px; */
+    margin: 10% auto;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* height: 100%; */
+    /* max-height: 70%; */
+}
+
+.contenedor_cerrar_islas {
+	display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    width: 100%;
+    color: #333333;
+    /* flex-direction: row-reverse; */
+    margin-right: -20px;
+    margin-top: -27px;
+}
+
+.modal_cerrar_islas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 1%;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 15%);
+}
+
+.titulo_islas {
+	width: 100%;
+	color: #fbb03b;
+	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+	text-align: center;
+	padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 2em;
+}
+
+.video_islas {
+	width: 60%;
+}
+
+/*
+.iframe_islas {
+	width: 100%;
+    height: 70%;
+}
+*/
+.contenido_islas{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto_descripcion_islas {
+	color: #fff;
+	font-family: 'Ancizar sans';
+	text-align: center;
+}
+
+.descripcion_islas {
+	width: 58%;
+	padding: 4% 0%;
+}
+
+.area_islas {
+	color: #fbb03b;
+}
+
+.div_imagen_islas {
+	width: 33.34%;
+	padding-bottom: 33.33%;
+	/* border: 1px solid white; */
+	background-size: cover;
+}
+
+.imagenes_islas {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#img_deportes_1 {
+	background-image: url('../images/img_isla1.jpg');
+}
+
+#img_deportes_2 {
+	background-image: url('../images/img_isla2.jpg');
+}
+
+#img_deportes_3 {
+	background-image: url('../images/img_isla3.jpg');
+}
+
+.titulo_datos_importancia {
+	width: 100%;
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+	padding: 3% 0%;
+}
+
+.datos_importancia_islas {
+	width: 100%;
+	background-size: cover;
+	background-image: linear-gradient( rgb(2 9 22 / 45%), rgb(2 9 22 / 45%) ), url(../images/img_isla4.jpg);
+}
+
+.datos_islas {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2% 0%;
+}
+
+.contenedor_datos_importancia {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dato_islas {
+	width: 70%;
+	border-bottom: 2px solid #fff;
+}
+
+.dato_islas_final {
+	width: 70%;
+}
+
+.nombre_dato_isla{
+	padding: 3% 0%;
+}
+
+.usos_dato_isla {
+	
+}
+
+.usuarios_dato_isla {
+	padding-bottom: 2%;
+}
+
+.contenedor_programacion {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.titulo_programacion {
+	width: 100%;
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+	padding: 6% 0%;
+}
+
+.enlace_programacion {
+	width: 100%;
+	font-size: 1.5em;
+	color: #fbb03b;
+	text-decoration: underline;
+	padding-bottom: 2%;
+}
+
+.enlace_programacion:hover {
+	color: #ffffff;
+}
+
+.contenedor_redes_sociales {
+	width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botones_redes_sociales {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	padding: 2% 0%;
+}
+
+.boton_redes_sociales {
+	width: 7%;
+	cursor: pointer;
+}
+
+.boton_redes_sociales:hover {
+	opacity: 0.7;
+}
+
+.img_redes_sociales {
+	width: 100%;
+}
+
+.contenedor_contacto {
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 5%;
+}
+
+.dato_contacto {
+	width: 100%;
+	text-align: center;
+}
+
+.titulo_contacto {
+	width: 100%;
+	text-align: center;
+	padding: 2% 0%;
+}
