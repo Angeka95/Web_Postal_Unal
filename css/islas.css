@@ -64,14 +64,17 @@
     box-shadow: 0px 2px 6px rgb(0 0 0 / 15%);
 }
 
+
 .titulo_islas {
+	margin-top: 70px;
 	width: 100%;
 	color: #fbb03b;
-	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+	font-family: "Bebas", Tahoma, Geneva, sans-serif; 
 	text-align: center;
 	padding-top: 4%;
     padding-bottom: 2%;
-    font-size: 2em;
+    font-size: 4em;
+
 }
 
 .video_islas {
@@ -133,10 +136,12 @@
 
 .titulo_datos_importancia {
 	width: 100%;
-	font-size: 1.5em;
+	font-family: "Bebas", Tahoma, Geneva, sans-serif; 
+	font-size: 2em;
 	display: flex;
 	justify-content: center;
 	padding: 3% 0%;
+	margin: 20px 0px;
 }
 
 .datos_importancia_islas {
@@ -170,14 +175,18 @@
 
 .nombre_dato_isla{
 	padding: 3% 0%;
+	font-size: 1.5em;
 }
 
 .usos_dato_isla {
-	
+	font-size: 1.5em;
+	line-height: 2em;
 }
 
-.usuarios_dato_isla {
+.dato_isla {
 	padding-bottom: 2%;
+    font-size: 1.5em;
+    line-height: 1.1em;
 }
 
 .contenedor_programacion {
@@ -188,7 +197,8 @@
 
 .titulo_programacion {
 	width: 100%;
-	font-size: 1.5em;
+	font-family: "Bebas", Tahoma, Geneva, sans-serif; 
+	font-size: 2em;
 	display: flex;
 	justify-content: center;
 	padding: 6% 0%;
@@ -197,6 +207,7 @@
 .enlace_programacion {
 	width: 100%;
 	font-size: 1.5em;
+	font-style: italic;
 	color: #fbb03b;
 	text-decoration: underline;
 	padding-bottom: 2%;
@@ -251,4 +262,17 @@
 	width: 100%;
 	text-align: center;
 	padding: 2% 0%;
+}
+
+.titulo_redes_sociales{
+	font-size: 1.5em;
+}
+
+.titulo_contacto{
+	font-size: 1.5em;
+}
+
+.correo_contacto{
+	font-size: 1em; 
+	font-style: italic;
 }
