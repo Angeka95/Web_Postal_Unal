@@ -98,6 +98,8 @@
 	color: #fff;
 	font-family: 'Ancizar sans';
 	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.2em;
 }
 
 .descripcion_islas {
@@ -138,10 +140,12 @@
 	width: 100%;
 	font-family: "Bebas", Tahoma, Geneva, sans-serif; 
 	font-size: 2em;
+	line-height: 1.2em;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	padding: 3% 0%;
-	margin: 20px 0px;
+	margin: 20px 10%;
 }
 
 .datos_importancia_islas {
@@ -165,17 +169,18 @@
 }
 
 .dato_islas {
-	width: 70%;
+	width: 80%;
 	border-bottom: 2px solid #fff;
 }
 
 .dato_islas_final {
-	width: 70%;
+	width: 80%;
 }
 
 .nombre_dato_isla{
 	padding: 3% 0%;
 	font-size: 1.5em;
+	line-height: 1.2em;
 }
 
 .usos_dato_isla {
@@ -196,12 +201,15 @@
 }
 
 .titulo_programacion {
-	width: 100%;
-	font-family: "Bebas", Tahoma, Geneva, sans-serif; 
-	font-size: 2em;
-	display: flex;
-	justify-content: center;
-	padding: 6% 0%;
+    width: 100%;
+    font-family: "Bebas", Tahoma, Geneva, sans-serif;
+    font-size: 2em;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: center;
+    padding: 6% 0%;
+    margin: 0px 10%;
+    text-align: center;
 }
 
 .enlace_programacion {
@@ -211,6 +219,7 @@
 	color: #fbb03b;
 	text-decoration: underline;
 	padding-bottom: 2%;
+	margin: 0px 5%;
 }
 
 .enlace_programacion:hover {
@@ -256,6 +265,8 @@
 .dato_contacto {
 	width: 100%;
 	text-align: center;
+	font-size: 1.2em; 
+	line-height: 1.2em;
 }
 
 .titulo_contacto {
@@ -275,4 +286,68 @@
 .correo_contacto{
 	font-size: 1em; 
 	font-style: italic;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+.descripcion_islas {
+	width: 80%;
+	padding: 4% 0%;
+}
+
+
+.datos_islas{
+	padding: 60px 0px;
+}
+
+
+.contenedor_programacion {
+margin: 10px 0px;
+}
+
+.enlace_programacion{
+	text-align: center;
+}
+
+
+.cont_enlace{
+	margin-top: 10px;
+}
+
+.cont_enlace2{
+	margin-bottom: 10px;
+
+}
+
+.dato_islas {
+    width: 80%;
+}
+
+.titulo_redes_sociales{
+	margin-top: 10px;
+}
+
+.boton_redes_sociales {
+    width: 15%;
+}
+
+.titulo_redes_sociales{
+	margin: 10px 0px;
+}
+
+.titulo_contacto{
+	margin: 10px 0px;
+}
+
+.contenedor_contacto{
+	margin-bottom: 30px;
+    width: 80%;
+}
+
+.dato_islas_final {
+	width: 80%;
+}
+
 }
