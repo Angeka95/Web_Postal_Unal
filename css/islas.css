@@ -193,6 +193,7 @@
 	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 20px;
 }
 
 .titulo_programacion {
@@ -204,13 +205,17 @@
 	padding: 6% 0%;
 }
 
-.enlace_programacion {
+.cont_enlace_programacion {
 	width: 100%;
+	padding-bottom: 2%;
+}
+
+.enlace_programacion {
+	/* width: 100%; */
 	font-size: 1.5em;
 	font-style: italic;
 	color: #fbb03b;
 	text-decoration: underline;
-	padding-bottom: 2%;
 }
 
 .enlace_programacion:hover {
