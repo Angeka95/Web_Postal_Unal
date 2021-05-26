@@ -68,13 +68,36 @@
 .titulo_islas {
 	margin-top: 70px;
 	width: 100%;
-	color: #fbb03b;
+	/* color: #fbb03b; */
 	font-family: "Bebas", Tahoma, Geneva, sans-serif; 
 	text-align: center;
 	padding-top: 4%;
     padding-bottom: 2%;
     font-size: 4em;
+}
 
+#isla_deporte .titulo_islas {
+	color: #fbb03b;
+}
+
+#isla_cultura .titulo_islas {
+	color: #db8db9;
+}
+
+#isla_salud .titulo_islas {
+	color: #6cbec3;
+}
+
+#isla_conocimiento .titulo_islas {
+	color: #ff8068;
+}
+
+#isla_espacios .titulo_islas {
+	color: #9d8ac5;
+}
+
+#isla_naturaleza .titulo_islas {
+	color: #aabd7a;
 }
 
 .video_islas {
@@ -107,8 +130,28 @@
 	padding: 4% 0%;
 }
 
-.area_islas {
+#isla_deporte .area_islas {
 	color: #fbb03b;
+}
+
+#isla_cultura .area_islas {
+	color: #db8db9;
+}
+
+#isla_salud .area_islas {
+	color: #6cbec3;
+}
+
+#isla_conocimiento .area_islas {
+	color: #ff8068;
+}
+
+#isla_espacios .area_islas {
+	color: #9d8ac5;
+}
+
+#isla_naturaleza .area_islas {
+	color: #aabd7a;
 }
 
 .div_imagen_islas {
@@ -151,6 +194,13 @@
 .datos_importancia_islas {
 	width: 100%;
 	background-size: cover;
+}
+
+#datos_importancia_deportes {
+	background-image: linear-gradient( rgb(2 9 22 / 45%), rgb(2 9 22 / 45%) ), url(../images/img_isla4.jpg);
+}
+
+#datos_importancia_cultura {
 	background-image: linear-gradient( rgb(2 9 22 / 45%), rgb(2 9 22 / 45%) ), url(../images/img_isla4.jpg);
 }
 
@@ -219,17 +269,67 @@
 }
 
 .enlace_programacion {
-	/* width: 100%; */
 	font-size: 1.5em;
 	font-style: italic;
-	color: #fbb03b;
 	text-decoration: underline;
 	padding-bottom: 2%;
 	margin: 0px 5%;
 }
 
+#isla_deporte .enlace_programacion {
+	color: #fbb03b;
+}
+
+#isla_cultura .enlace_programacion {
+	color: #db8db9;
+}
+
+#isla_salud .enlace_programacion {
+	color: #6cbec3;
+}
+
+#isla_conocimiento .enlace_programacion {
+	color: #ff8068;
+}
+
+#isla_espacios .enlace_programacion {
+	color: #9d8ac5;
+}
+
+#isla_naturaleza .enlace_programacion {
+	color: #aabd7a;
+}
+
 .enlace_programacion:hover {
-	color: #ffffff;
+	color: #ffffff !important;
+}
+
+#isla_deporte .enlace_pagina {
+	color: #fbb03b;
+}
+
+#isla_cultura .enlace_pagina {
+	color: #db8db9;
+}
+
+#isla_salud .enlace_pagina {
+	color: #6cbec3;
+}
+
+#isla_conocimiento .enlace_pagina {
+	color: #ff8068;
+}
+
+#isla_espacios .enlace_pagina {
+	color: #9d8ac5;
+}
+
+#isla_naturaleza .enlace_pagina {
+	color: #aabd7a;
+}
+
+.enlace_pagina:hover {
+	color: #ffffff !important;
 }
 
 .contenedor_redes_sociales {
@@ -273,6 +373,15 @@
 	text-align: center;
 	font-size: 1.2em; 
 	line-height: 1.2em;
+}
+
+.dato_contacto_pagina {
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em; 
+	line-height: 1.2em;
+	color: #ffffff;
+	margin-top: 20px;
 }
 
 .titulo_contacto {
