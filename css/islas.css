@@ -155,7 +155,7 @@
 }
 
 .div_imagen_islas {
-	width: 33.34%;
+	width: 33.33%;
 	padding-bottom: 33.33%;
 	/* border: 1px solid white; */
 	background-size: cover;
@@ -164,19 +164,43 @@
 .imagenes_islas {
 	width: 100%;
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
 
 #img_deportes_1 {
-	background-image: url('../images/img_isla1.jpg');
+	background-image: url('../images/SD_01.jpg');
 }
 
 #img_deportes_2 {
-	background-image: url('../images/img_isla2.jpg');
+	background-image: url('../images/SD_02.jpg');
 }
 
 #img_deportes_3 {
-	background-image: url('../images/img_isla3.jpg');
+	background-image: url('../images/SD_03.jpg');
+}
+
+#img_cultura_1 {
+	background-image: url('../images/SCU_01.jpg');
+}
+
+#img_cultura_2 {
+	background-image: url('../images/SCU_02.jpg');
+}
+
+#img_cultura_3 {
+	background-image: url('../images/SCU_03.jpg');
+}
+
+#img_cultura_4 {
+	background-image: url('../images/SCU_04.jpg');
+}
+
+#img_cultura_5 {
+	background-image: url('../images/SCU_05.jpg');
+}
+
+#img_cultura_6 {
+	background-image: url('../images/SCU_06.jpg');
 }
 
 .titulo_datos_importancia {
@@ -201,7 +225,11 @@
 }
 
 #datos_importancia_cultura {
-	background-image: linear-gradient( rgb(2 9 22 / 45%), rgb(2 9 22 / 45%) ), url(../images/img_isla4.jpg);
+	background-image: linear-gradient( rgb(2 9 22 / 45%), rgb(2 9 22 / 45%) ), url(../images/culture.jpg);
+}
+
+#datos_importancia_salud {
+	background-image: linear-gradient( rgb(2 9 22 / 45%), rgb(2 9 22 / 45%) ), url(../images/health.jpg);
 }
 
 .datos_islas {
@@ -242,6 +270,40 @@
 	padding-bottom: 2%;
     font-size: 1.5em;
     line-height: 1.1em;
+}
+
+#isla_deporte .dato_isla {
+	color: #fbb03b;
+}
+
+#isla_cultura .dato_isla {
+	color: #db8db9;
+}
+
+#isla_salud .dato_isla {
+	color: #6cbec3;
+}
+
+#isla_conocimiento .dato_isla {
+	color: #ff8068;
+}
+
+#isla_espacios .dato_isla {
+	color: #9d8ac5;
+}
+
+#isla_naturaleza .dato_isla {
+	color: #aabd7a;
+}
+
+.lista_dato_importancia {
+	list-style: disc;
+    font-size: 1.5em;
+	padding-bottom: 3%;	
+}
+
+.lista_dato_importancia li{
+	padding-bottom: 5px;	
 }
 
 .contenedor_programacion {

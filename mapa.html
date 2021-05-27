@@ -436,7 +436,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="punto_conocimiento unselectable">
+                <div class="punto_conocimiento unselectable" onclick="$('#ModalConocimiento').show()">
                     <div class="isla_conocimiento">
                         <figure>
                             <img src="images/conocimiento.png" class="img_isla">
@@ -451,7 +451,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="punto_naturaleza unselectable">
+                <div class="punto_naturaleza unselectable" onclick="$('#ModalNaturaleza').show()">
                     <div class="isla_naturaleza">
                         <figure>
                             <img src="images/naturaleza.png" class="img_isla">
@@ -459,7 +459,7 @@
                     </div>
                 </div>
 
-                <div class="punto_espacios unselectable">
+                <div class="punto_espacios unselectable" onclick="$('#ModalEspacios').show()">
                     <div class="isla_espacios">
                         <figure>
                             <img src="images/espacios.png" class="img_isla">
@@ -659,20 +659,20 @@
 									<div class="datos_islas">
 										<div class="dato_islas">
 											<p class="nombre_dato_isla">Programa de Promoción a la Actividad Física</p>
-											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24418</strong></p>
-											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">4964</strong></p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24.418</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">4.964</strong></p>
 										</div>
 										
 										<div class="dato_islas">
 											<p class="nombre_dato_isla">Programa de Acondicionamiento Físico</p>
-											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24859</strong></p>
-											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1933</strong></p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24.859</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1.933</strong></p>
 										</div>
 										
 										<div class="dato_islas_final">
 											<p class="nombre_dato_isla">Programa Deporte de Competencia</p>
-											<p class="usos_dato_isla">Usos: <strong class="dato_isla">27684</strong></p>
-											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1765</strong></p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">27.684</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1.765</strong></p>
 										</div>
 									</div>
 								</div>							
@@ -741,11 +741,17 @@
 							</div>
 							
 							<div class="imagenes_islas">
-								<div class="div_imagen_islas" id="img_deportes_1">
+								<div class="div_imagen_islas" id="img_cultura_1">
 								</div>
-								<div class="div_imagen_islas" id="img_deportes_2">
+								<div class="div_imagen_islas" id="img_cultura_2">
 								</div>
-								<div class="div_imagen_islas" id="img_deportes_3">
+								<div class="div_imagen_islas" id="img_cultura_3">
+								</div>
+								<div class="div_imagen_islas" id="img_cultura_4">
+								</div>
+								<div class="div_imagen_islas" id="img_cultura_5">
+								</div>
+								<div class="div_imagen_islas" id="img_cultura_6">
 								</div>
 							</div>
 							
@@ -850,19 +856,112 @@
 								</p>
 							</div>
 							
+							<!-- <div class="imagenes_islas"> -->
+								<!-- <div class="div_imagen_islas" id="img_salud_1"> -->
+								<!-- </div> -->
+								<!-- <div class="div_imagen_islas" id="img_salud_2"> -->
+								<!-- </div> -->
+								<!-- <div class="div_imagen_islas" id="img_salud_3"> -->
+								<!-- </div> -->
+							<!-- </div> -->
+							
+							<div class="contenedor_datos_importancia">
+								<p class="titulo_datos_importancia">DATOS DE IMPORTANCIA EN ESTE AISLAMIENTO</p>
+								
+								<div class="datos_importancia_islas" id="datos_importancia_salud">
+									<div class="datos_islas">
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Contacto telefónico y búsqueda activa de enfermedad respiratoria en el <strong class="dato_isla">60% de la población estudiantil</strong></p>
+										</div>
+										
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Atención prioritaria a grupos poblacionales con factores de riesgo:</p>
+											<ul class="lista_dato_importancia">
+												<li>Internos y residentes de la Facultad de Medicina</li>
+												<li>Población PAES y PEAMA</li>
+												<li>Estudiantes que viven en las residencias universitraias</li>
+												<li>Población identificada con enfermedades crónicas</li>
+											</ul>
+										</div>
+										
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Continuidad en las atenciones por Psicología, Medicina general, Nutrición, Salud sexual y reproductiva, Higiene Oral; llegando a mas de <strong class="dato_isla">29.000 teleorientaciones</strong></p>
+										</div>
+										
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Actividades de promoción de la salud con una participación de <strong class="dato_isla">11.689 usuarios</strong></p>
+										</div>
+										
+										<div class="dato_islas">
+											<p class="nombre_dato_isla"><strong class="dato_isla">35 Publicaciones</strong> sobre diferentes temas de la salud integral (Videos, piezas gráficas y textos en el Boletín En Plural)</p>
+										</div>
+										
+										<div class="dato_islas_final">
+											<p class="nombre_dato_isla"><strong class="dato_isla">20 Participaciones</strong> en UN Radio: La nacional Cultural y UN Análisis</p>
+										</div>
+									</div>
+								</div>							
+							</div>
+							
+							<div class="contenedor_programacion">
+							</div>
+							
+							<div class="contenedor_contacto">
+								<p class="titulo_contacto">Contáctanos</p>
+								<p class="dato_contacto"><strong class="correo_contacto">areasalud_bog@unal.edu.co</strong></p>
+								<p class="dato_contacto_pagina">Sitio web: <a href="http://www.bienestar.unal.edu.co/sistema-de-bienestar/area-de-salud/" target="_blank" class="enlace_pagina">Área de salud</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+
+            <div id="ModalConocimiento" class="modal_home_islas">
+              <div class="modal_contenido_islas">                    
+					<div class="contenedor_cerrar_islas">
+						<a onclick="$('#ModalConocimiento').hide(); cerrarModal();" class="modal_cerrar_islas pointer">X</a>
+					</div>
+					
+					<div class="contenedor_modal_islas">
+						<div class="contenido_islas" id="isla_conocimiento">
+							<h3 class="titulo_islas">SOMOS CONOCIMIENTO</h3>
+						
+							<div class="video_islas">
+								<div class="embed-responsive embed-responsive-4by3">
+									<div class="videoWrapper">
+										<iframe id="vid_frame_islas" class="iframe_islas" width="700" height="315" src="https://www.youtube.com/embed/USM8QTFUKSU?mute=1&enablejsapi=1" frameborder="0" allowfullscreen  ></iframe>
+									</div>
+								</div>
+							</div>
+							
+							<div class="contenedor_programacion">
+							</div>
+							
+							<div class="contenedor_contacto">
+							</div>
+							<!--
+							<div class="descripcion_islas">
+								<p class="texto_descripcion_islas">
+									El <strong class="area_islas">Área de Salud</strong> promueve el mejoramiento permanente de las condiciones físicas, psicológicas, sociales y ambientales en las que se desarrolla la vida universitaria, mediante programas formativos, preventivos y correctivos que incidan en la calidad de vida y hábitos de vida saludable.
+									<br/><br/>
+									Protegemos y promocionamos la salud integral de la comunidad universitaria a partir de la caracterización del riesgo individual y grupal, la prevención de la enfermedad, sin remplazar las respectivas aseguradoras (EPS, EPS-S) ni sustitir el Sistema General en Salud y lo reglamentado por el
+									Ministerio de Salud en la ley 100 de 1993.
+								</p>
+							</div>
+							
 							<div class="imagenes_islas">
-								<div class="div_imagen_islas" id="img_deportes_1">
+								<div class="div_imagen_islas" id="img_conocimiento_1">
 								</div>
-								<div class="div_imagen_islas" id="img_deportes_2">
+								<div class="div_imagen_islas" id="img_conocimiento_2">
 								</div>
-								<div class="div_imagen_islas" id="img_deportes_3">
+								<div class="div_imagen_islas" id="img_conocimiento_3">
 								</div>
 							</div>
 							
 							<div class="contenedor_datos_importancia">
 								<p class="titulo_datos_importancia">DATOS DE IMPORTANCIA EN ESTE AISLAMIENTO</p>
 								
-								<div class="datos_importancia_islas" id="datos_importancia_deportes">
+								<div class="datos_importancia_islas" id="datos_importancia_conocimiento">
 									<div class="datos_islas">
 										<div class="dato_islas">
 											<p class="nombre_dato_isla">Programa de Promoción a la Actividad Física</p>
@@ -886,37 +985,179 @@
 							</div>
 							
 							<div class="contenedor_programacion">
-								<p class="titulo_programacion">CONOCE NUESTRA PROGRAMACIÓN</p>
-								
-								<div class="cont_enlace_programacion">
-									<a class="enlace_programacion cont_enlace" href="http://bienestar.bogota.unal.edu.co/convocatorias.php" target="_blank">Convocatorias</a>
-								</div>
-								<div class="cont_enlace_programacion">
-									<a class="enlace_programacion cont_enlace2" href="http://bienestar.bogota.unal.edu.co/Actividades-Semanales/images/Afiches/FEB-2021/vita-feb-04.png" target="_blank">Actividades Semanales</a>
-								</div>
-								
-							</div>
-							
-							<div class="contenedor_redes_sociales">
-								<p class="titulo_redes_sociales">Síguenos en nuestras redes sociales</p>
-								<div class="botones_redes_sociales">
-									<a class="boton_redes_sociales" href="https://www.facebook.com/VitalizateUN" target="_blank">
-										<figure>
-											<img class="img_redes_sociales" alt="Facebook" src="images/facebook.png">
-										</figure>
-									</a>
-								</div>
 							</div>
 							
 							<div class="contenedor_contacto">
 								<p class="titulo_contacto">Contáctanos</p>
-								<p class="dato_contacto">DAFD: <strong class="correo_contacto">divrecd_bog@unal.edu.co</strong></p>
-								<p class="dato_contacto">Vitalízate: <strong class="correo_contacto">vitalizate@unal.edu.co</strong></p>
-								<p class="dato_contacto">Acondicionamiento físico: <strong class="correo_contacto">afdunal_bog@unal.edu.co</strong></p>
-								<p class="dato_contacto">Deporte de Competencia: <strong class="correo_contacto">oabohorqueza@unal.edu.co</strong></p>
-								<p class="dato_contacto_pagina">Sitio web: <a href="http://bienestar.bogota.unal.edu.co/deportes.php" target="_blank" class="enlace_pagina">Área de
-								actividad física y deporte</a></p>
+								<p class="dato_contacto"><strong class="correo_contacto">areasalud_bog@unal.edu.co</strong></p>
+								<p class="dato_contacto_pagina">Sitio web: <a href="http://www.bienestar.unal.edu.co/sistema-de-bienestar/area-de-salud/" target="_blank" class="enlace_pagina">Área de salud</a></p>
 							</div>
+							-->
+						</div>
+					</div>
+				</div>
+            </div>
+
+            <div id="ModalNaturaleza" class="modal_home_islas">
+              <div class="modal_contenido_islas">                    
+					<div class="contenedor_cerrar_islas">
+						<a onclick="$('#ModalNaturaleza').hide(); cerrarModal();" class="modal_cerrar_islas pointer">X</a>
+					</div>
+					
+					<div class="contenedor_modal_islas">
+						<div class="contenido_islas" id="isla_naturaleza">
+							<h3 class="titulo_islas">SOMOS NATURALEZA</h3>
+						
+							<div class="video_islas">
+								<div class="embed-responsive embed-responsive-4by3">
+									<div class="videoWrapper">
+										<iframe id="vid_frame_islas" class="iframe_islas" width="700" height="315" src="https://www.youtube.com/embed/USM8QTFUKSU?mute=1&enablejsapi=1" frameborder="0" allowfullscreen  ></iframe>
+									</div>
+								</div>
+							</div>
+							
+							<div class="contenedor_programacion">
+							</div>
+							
+							<div class="contenedor_contacto">
+							</div>
+							<!--
+							<div class="descripcion_islas">
+								<p class="texto_descripcion_islas">
+									El <strong class="area_islas">Área de Salud</strong> promueve el mejoramiento permanente de las condiciones físicas, psicológicas, sociales y ambientales en las que se desarrolla la vida universitaria, mediante programas formativos, preventivos y correctivos que incidan en la calidad de vida y hábitos de vida saludable.
+									<br/><br/>
+									Protegemos y promocionamos la salud integral de la comunidad universitaria a partir de la caracterización del riesgo individual y grupal, la prevención de la enfermedad, sin remplazar las respectivas aseguradoras (EPS, EPS-S) ni sustitir el Sistema General en Salud y lo reglamentado por el
+									Ministerio de Salud en la ley 100 de 1993.
+								</p>
+							</div>
+							
+							<div class="imagenes_islas">
+								<div class="div_imagen_islas" id="img_naturaleza_1">
+								</div>
+								<div class="div_imagen_islas" id="img_naturaleza_2">
+								</div>
+								<div class="div_imagen_islas" id="img_naturaleza_3">
+								</div>
+							</div>
+							
+							<div class="contenedor_datos_importancia">
+								<p class="titulo_datos_importancia">DATOS DE IMPORTANCIA EN ESTE AISLAMIENTO</p>
+								
+								<div class="datos_importancia_islas" id="datos_importancia_naturaleza">
+									<div class="datos_islas">
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Programa de Promoción a la Actividad Física</p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24418</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">4964</strong></p>
+										</div>
+										
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Programa de Acondicionamiento Físico</p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24859</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1933</strong></p>
+										</div>
+										
+										<div class="dato_islas_final">
+											<p class="nombre_dato_isla">Programa Deporte de Competencia</p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">27684</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1765</strong></p>
+										</div>
+									</div>
+								</div>							
+							</div>
+							
+							<div class="contenedor_programacion">
+							</div>
+							
+							<div class="contenedor_contacto">
+								<p class="titulo_contacto">Contáctanos</p>
+								<p class="dato_contacto"><strong class="correo_contacto">areasalud_bog@unal.edu.co</strong></p>
+								<p class="dato_contacto_pagina">Sitio web: <a href="http://www.bienestar.unal.edu.co/sistema-de-bienestar/area-de-salud/" target="_blank" class="enlace_pagina">Área de salud</a></p>
+							</div>
+							-->
+						</div>
+					</div>
+				</div>
+            </div>
+			
+            <div id="ModalEspacios" class="modal_home_islas">
+              <div class="modal_contenido_islas">                    
+					<div class="contenedor_cerrar_islas">
+						<a onclick="$('#ModalEspacios').hide(); cerrarModal();" class="modal_cerrar_islas pointer">X</a>
+					</div>
+					
+					<div class="contenedor_modal_islas">
+						<div class="contenido_islas" id="isla_espacios">
+							<h3 class="titulo_islas">SOMOS ESPACIOS</h3>
+						
+							<div class="video_islas">
+								<div class="embed-responsive embed-responsive-4by3">
+									<div class="videoWrapper">
+										<iframe id="vid_frame_islas" class="iframe_islas" width="700" height="315" src="https://www.youtube.com/embed/USM8QTFUKSU?mute=1&enablejsapi=1" frameborder="0" allowfullscreen  ></iframe>
+									</div>
+								</div>
+							</div>
+							
+							<div class="contenedor_programacion">
+							</div>
+							
+							<div class="contenedor_contacto">
+							</div>
+							
+							<!--
+							<div class="descripcion_islas">
+								<p class="texto_descripcion_islas">
+									El <strong class="area_islas">Área de Salud</strong> promueve el mejoramiento permanente de las condiciones físicas, psicológicas, sociales y ambientales en las que se desarrolla la vida universitaria, mediante programas formativos, preventivos y correctivos que incidan en la calidad de vida y hábitos de vida saludable.
+									<br/><br/>
+									Protegemos y promocionamos la salud integral de la comunidad universitaria a partir de la caracterización del riesgo individual y grupal, la prevención de la enfermedad, sin remplazar las respectivas aseguradoras (EPS, EPS-S) ni sustitir el Sistema General en Salud y lo reglamentado por el
+									Ministerio de Salud en la ley 100 de 1993.
+								</p>
+							</div>
+							
+							<div class="imagenes_islas">
+								<div class="div_imagen_islas" id="img_espacios_1">
+								</div>
+								<div class="div_imagen_islas" id="img_espacios_2">
+								</div>
+								<div class="div_imagen_islas" id="img_espacios_3">
+								</div>
+							</div>
+							
+							<div class="contenedor_datos_importancia">
+								<p class="titulo_datos_importancia">DATOS DE IMPORTANCIA EN ESTE AISLAMIENTO</p>
+								
+								<div class="datos_importancia_islas" id="datos_importancia_espacios">
+									<div class="datos_islas">
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Programa de Promoción a la Actividad Física</p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24418</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">4964</strong></p>
+										</div>
+										
+										<div class="dato_islas">
+											<p class="nombre_dato_isla">Programa de Acondicionamiento Físico</p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">24859</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1933</strong></p>
+										</div>
+										
+										<div class="dato_islas_final">
+											<p class="nombre_dato_isla">Programa Deporte de Competencia</p>
+											<p class="usos_dato_isla">Usos: <strong class="dato_isla">27684</strong></p>
+											<p class="usos_dato_isla">Usuarios: <strong class="dato_isla">1765</strong></p>
+										</div>
+									</div>
+								</div>							
+							</div>
+							
+							<div class="contenedor_programacion">
+							</div>
+							
+							<div class="contenedor_contacto">
+								<p class="titulo_contacto">Contáctanos</p>
+								<p class="dato_contacto"><strong class="correo_contacto">areasalud_bog@unal.edu.co</strong></p>
+								<p class="dato_contacto_pagina">Sitio web: <a href="http://www.bienestar.unal.edu.co/sistema-de-bienestar/area-de-salud/" target="_blank" class="enlace_pagina">Área de salud</a></p>
+							</div>
+							-->
 						</div>
 					</div>
 				</div>
