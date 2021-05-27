@@ -206,7 +206,7 @@
 .titulo_datos_importancia {
 	width: 100%;
 	font-family: "Bebas", Tahoma, Geneva, sans-serif; 
-	font-size: 2em;
+	font-size: 2.6em;
 	line-height: 1.2em;
 	display: flex;
 	justify-content: center;
@@ -229,7 +229,7 @@
 }
 
 #datos_importancia_salud {
-	background-image: linear-gradient( rgb(2 9 22 / 45%), rgb(2 9 22 / 45%) ), url(../images/health.jpg);
+	background-image: linear-gradient( rgb(2 9 22 / 80%), rgb(2 9 22 / 65%) ), url(../images/health.jpg);
 }
 
 .datos_islas {
@@ -335,7 +335,7 @@
 .titulo_programacion {
     width: 100%;
     font-family: "Bebas", Tahoma, Geneva, sans-serif;
-    font-size: 2em;
+    font-size: 2.6em;
     line-height: 1.2em;
     display: flex;
     justify-content: center;
