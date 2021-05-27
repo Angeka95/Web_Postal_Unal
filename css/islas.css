@@ -261,12 +261,21 @@
 	font-weight: 700;
 	font-style: italic;
 	line-height: 1.2em;
-	
+}
+
+.nombre_dato_isla_min{
+	margin-top: 20px;
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+.margin_bottom_min {
+	margin-bottom: 20px;
 }
 
 .usos_dato_isla {
 	font-size: 1.5em;
-	line-height: 2em;
+	line-height: 1.2em;
 	margin-bottom: 10px;
 }
 
@@ -308,7 +317,8 @@
 .lista_dato_importancia {
 	list-style: disc;
     font-size: 1.5em;
-	padding-bottom: 3%;	
+	margin-bottom: 20px;	
+	margin-top: 20px;
 }
 
 .lista_dato_importancia li{
