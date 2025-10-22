@@ -111,6 +111,7 @@
 main.detalle {
     margin: 0 0 0 0;
     z-index: 0;
+    max-height: 100vh;
 }
 
 
@@ -118,31 +119,31 @@ main.detalle {
 /*home*/
 .detalle{
  background-color: #333333;
+ max-height: 100vh;
 }
 
 .contenedor_general{
   display: flex;
   width: 100%;
+  
 }
 
 .contenedor_izq{
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
-  padding-left: 7%;
+  width: 100%;
   background-color: #333333;
 }
 
 .contenedor_identificador{
   display: flex;
   justify-content: center;
-  width: 80%;
-  margin-top: 12%;
+  width: 100%;
 }
 
 .logo_proyecto{
-  width: 85%;
-  margin-left: 41%;
+  width: 50%;
+  max-width: 400px;
   margin-top: 10%;
 }
 
@@ -171,21 +172,24 @@ main.detalle {
   letter-spacing: 0.2em;
 }
 .contenedor_descripcion{
-  width: 90%;
+  width: 100%;
   margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
 
 }
 
 .descripcion_proyecto{
-font-size: 2.2vh;
-    line-height: 2.8vh;
+font-size: 3.2vh;
+    line-height: 4.2vh;
   color: #fff;
   text-align: center;
+  max-width: 600px;
 
 }
 
 .contenedor_boton{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 2%;
@@ -198,7 +202,8 @@ font-size: 2.2vh;
   text-transform: uppercase;
   color: #333333 !important;
   background-color: #fff;
-  padding: 20px 20px;
+  padding: 20px 40px;
+  letter-spacing: 0.1em;
   border-radius: 100px;
   border: 0.5px solid #fff;
 }
@@ -423,8 +428,7 @@ font-size: 2.2vh;
 
 
 .logo_proyecto{
-  width: 70%;
-  margin-left: 25%;
+  width: 50%;
 }
 
 
@@ -437,6 +441,7 @@ font-size: 2.2vh;
     padding-left: 0%;
 }
 .contenedor_general {
+  margin-top: 60px;
     display: flex;
     justify-content: center;
 }
