@@ -730,6 +730,10 @@ nice-select{
 .img_publicacion {
   width: 100%;
   border-radius: 50%;
+  max-width: 40px;
+    max-height: 40px;
+    min-width: 40px;
+    min-height: 40px;
 }
 
 .img_publicacion:hover {
@@ -787,8 +791,8 @@ nice-select{
 	width: auto;
     color: #333333;
     font-weight: 900;
-    font-size: 1.8vh;
-    line-height: 2.2vh;
+    font-size: 2.4vh;
+    line-height: 2.6vh;
 }
 
 
