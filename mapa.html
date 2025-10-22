@@ -88,6 +88,26 @@
     <!--end css external loader-->
 
     <title>Inicio: Universidad Nacional de Colombia</title>
+<script>
+        window.onload = function() {
+            // Esperamos 1 segundo para asegurarnos de que todo el contenido se haya cargado
+            setTimeout(function() {
+                var puntoPublicacion = document.getElementById('punto_publicacion');
+                
+                if (puntoPublicacion) {
+                    // Usamos scrollIntoView para desplazar el contenedor a la vista
+                    puntoPublicacion.scrollIntoView({
+                        behavior: 'smooth',  // Desplazamiento suave
+                        block: 'start',      // Desplazar a la parte superior del contenedor
+                        inline: 'nearest'    // Desplazamiento horizontal (si es necesario)
+                    });
+
+                    console.log('Desplazamiento realizado');
+                } else {
+                    console.error('Elemento no encontrado');
+                }
+            }, 1000); 
+        </script>
 </head>
 
 <body class="espacio_movil">
@@ -114,7 +134,7 @@
         </ul>
     </div>
     <!-- Header -->
-    <header id="unalTop">
+    <header id="unalTop" style="display:none">
         <!-- Logo -->
         <div class="logo">
             <a href="https://unal.edu.co">
@@ -347,13 +367,17 @@
             
     	    <!-- PREGUNTA O TEMA-->
     	    <div class="tema">
-    	    	<h3 class="texto_tema">¿Qué habilidad aprendiste durante el aislamiento?</h3>
+    	    	<h3 class="texto_tema">Comparte una postal del lugar que más extrañas del Campus </h3>
+
     	    </div>
+                 <div class="contenedor_cta cta_floating">
+                        <div class="cta" >Arrastra para explorar</div>
+                    </div>
     	    <!-- PREGUNTA O TEMA -->
 	    </div>
 	    <!-- FIN LOGIN SUPERIOR -->
 
-
+         
 
 
 	    <!-- BOTON GALERIA-->
@@ -363,11 +387,11 @@
 	    <!-- FIN BOTON GALERIA-->
 
 	   	<!-- BOTON AYUDA-->
-	    <div class="contenedor_ayuda">
+	    <div class="contenedor_ayuda ">
 	    	<figure class="contenedor_img_ayuda">
-	    		<img class="ayuda_boton_img pointer" src="images/ayuda_logo.png"> 
+	    		<img class="ayuda_boton_img " src="images/ayuda_logo.png"> 
 	    	</figure>
-	         <a class="ayuda_texto"  onclick="$('#Modal2').show(); abrirModal();">¿No te sientes bien? </br>Te escuchamos</a>
+	         <a class="ayuda_texto pointer"  onclick="$('#Modal2').show(); abrirModal();">¿No te sientes bien? </br>Te escuchamos</a>
 	    </div>
 	    <!-- FIN BOTON AYUDA-->
 
@@ -392,7 +416,7 @@
 
 	    <!-- FILTROS-->
 	    <div class="contenedor_filtros">
-	    	<h4 class="titulo_filtros">Descubre quien comparte tus interéses</h4>
+	    	<h4 class="titulo_filtros">Postales de la Comunidad</h4>
 	    	<h5 class="cta_filtros"> Filtrar</h5>
 
 	    	<!--<div class="contenedor_input_filtros">
@@ -407,12 +431,13 @@
 
             <div class="contenedor_input_filtros">
                 <select name="seleccionar_filtro"  size="1">
-                    <option class="opt_filtro">¿Qué habilidad aprendiste durante el aislamiento?</option>
-                    <option class="opt_filtro">¿Lorem impsum dolor sit, amet consecteur?</option>
-                    <option class="opt_filtro">¿Lorem impsum dolor sit, amet consecteur?</option>
-                    <option class="opt_filtro">¿Lorem impsum dolor sit, amet consecteur?</option>
-                    <option class="opt_filtro">¿Lorem impsum dolor sit, amet consecteur?</option>
-                    <option class="opt_filtro">¿Lorem impsum dolor sit, amet consecteur?</option>
+                    <option class="opt_filtro">Lugar que más extrañas del Campus</option>
+                    <option class="opt_filtro">Tu playlist del día</option>
+                    <option class="opt_filtro">Un mensaje que dejarías en una pared del Campus</option>
+                    <!-- <option class="opt_filtro">Actividades que te hacen sentir tranquilo</option>
+                    <option class="opt_filtro">Sitios en los que te gustaría estar cuando termine el aislamiento</option>
+                    <option class="opt_filtro">Recuerdos en el campus</option> -->
+                    
                 </select>
             </div>
 	    </div>
@@ -429,14 +454,14 @@
 						</figure>
 					</div>
 				</div>
-                <div class="punto_deporte unselectable" onclick="$('#ModalDeportes').show()">
+                <div class="punto_deporte unselectable" onclick="$('#ModalDeportes1').show()">
                     <div class="isla_deporte">
                         <figure>
                             <img src="images/deporte.png" class="img_isla">
                         </figure>
                     </div>
                 </div>
-                <div class="punto_conocimiento unselectable" onclick="$('#ModalConocimiento').show()">
+                <div class="punto_conocimiento unselectable" onclick="$('#ModalConocimiento1').show()">
                     <div class="isla_conocimiento">
                         <figure>
                             <img src="images/conocimiento.png" class="img_isla">
@@ -444,14 +469,14 @@
                     </div>
                 </div>
 
-                <div class="punto_salud unselectable" onclick="$('#ModalSalud').show()">
+                <div class="punto_salud unselectable" onclick="$('#ModalSalud1').show()">
                     <div class="isla_salud">
                         <figure>
                             <img src="images/salud.png" class="img_isla">
                         </figure>
                     </div>
                 </div>
-                <div class="punto_naturaleza unselectable" onclick="$('#ModalNaturaleza').show()">
+                <div class="punto_naturaleza unselectable" onclick="$('#ModalNaturaleza1').show()">
                     <div class="isla_naturaleza">
                         <figure>
                             <img src="images/naturaleza.png" class="img_isla">
@@ -459,7 +484,7 @@
                     </div>
                 </div>
 
-                <div class="punto_espacios unselectable" onclick="$('#ModalEspacios').show()">
+                <div class="punto_espacios unselectable" onclick="$('#ModalEspacios1').show()">
                     <div class="isla_espacios">
                         <figure>
                             <img src="images/espacios.png" class="img_isla">
@@ -471,7 +496,7 @@
 
                 <!-- PUBLICACION NUEVO USUARIO -->
 
-                <div class="punto_publicacion_nueva unselectable">
+                <div class="punto_publicacion_nueva unselectable" id="punto_publicacion">
                     <div class="contenedor_publicacion_nueva">
                         <a onclick="$('#Modal4').show(); abrirModal();">
                         <figure class="animacion">
@@ -480,7 +505,7 @@
                         </a>
                     </div>
                     <div class="contenedor_cta">
-                        <div class="cta">Arrastra para explorar</div>
+                        <div class="cta" >Arrastra para explorar</div>
                     </div>
                 </div>
                 <!-- FIN PUBLICACION NUEVO USUARIO -->
@@ -492,7 +517,7 @@
                         <div class="contenedor_publicacion">
                             <a onclick="$('#Modal3').show(); abrirModal();">
                             <figure>
-                                <img src="images/icon_avatar_02.png" class="img_publicacion">
+                                <img src="images/icon_avatar_03.png" class="img_publicacion">
                             </figure>
                             </a>
                         </div>
@@ -620,7 +645,8 @@
             <div id="ModalDeportes" class="modal_home_islas">
               <div class="modal_contenido_islas">                    
 					<div class="contenedor_cerrar_islas">
-						<a onclick="$('#ModalDeportes').hide(); cerrarModal();" class="modal_cerrar_islas pointer">X</a>
+						<a 
+                        onclick="$('#ModalDeportes').hide(); cerrarModal();" class="modal_cerrar_islas pointer">X</a>
 					</div>
 					
 					<div class="contenedor_modal_islas">
@@ -1312,6 +1338,8 @@
     gtag('config', 'UA-xxxx-x');
   </script>
 <!-- end Google Analytics -->
+
+
     
 <!--scripts unal-->
 <script src="js/jquery.js"></script>
