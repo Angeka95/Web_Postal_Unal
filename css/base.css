@@ -111,7 +111,6 @@
 main.detalle {
     margin: 0 0 0 0;
     z-index: 0;
-    max-height: 100vh;
 }
 
 
@@ -119,7 +118,6 @@ main.detalle {
 /*home*/
 .detalle{
  background-color: #333333;
- max-height: 100vh;
 }
 
 .contenedor_general{
@@ -441,9 +439,9 @@ font-size: 3.2vh;
     padding-left: 0%;
 }
 .contenedor_general {
-  margin-top: 60px;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .contenedor_logo_somos{
