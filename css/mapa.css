@@ -203,7 +203,7 @@ body::-webkit-scrollbar {
     margin-right: 10px;
     border: 0;
     margin: 0px 10px;
-    font-size: 1.7vh;
+    font-size: 2vh;
     line-height: 1.7vh;
 }
 
@@ -229,7 +229,7 @@ body::-webkit-scrollbar {
     border: 0.5px solid #fff;
     margin-left: 8px;
     text-decoration: none !important;
-    padding: 13% 13%;
+    padding: 13% 30%;
     width: auto;
     white-space: nowrap;
 
@@ -239,7 +239,7 @@ body::-webkit-scrollbar {
 .log_boton_ingresar:hover{
   color: #fff;
   background-color: #333333;
-  border: 0.5px solid #878787;
+  border: 1px solid #fff;
   text-decoration: none !important;
   transition:all .5s ease-in-out; 
 }
@@ -276,7 +276,7 @@ body::-webkit-scrollbar {
   padding: 14px 6% 14px 6%; 
   text-align: right; 
   background: #fff;
-  opacity: 0.8;
+  opacity: 1;
   color: #333333; 
   font-family: 'Ancizar sans';
   display: flex;
@@ -317,17 +317,18 @@ body::-webkit-scrollbar {
 
 .galeria_boton{
     font-weight: 700;
-    font-size: 1.7vh;
+    font-size: 2vh;
     line-height: 1.7vh;
     text-transform: uppercase;
     color: #fff;
-    background-color: #333333;
-    padding: 20% 18%;
+    background-color: #e1176d;
+    letter-spacing: 0.1em;
+    padding: 18% 30%;
     white-space: nowrap;
     width: auto;
     border-radius: 100px;
-    border: 0.5px solid #333333;
-    margin-left: 8px;
+    border: 0.5px solid #e1176d;
+    margin-left: 28px;
     text-decoration: none !important;
     box-shadow: 0px 8px 12px rgb(0 0 0 / 13%);
 }
@@ -347,7 +348,7 @@ body::-webkit-scrollbar {
   text-align: center;
   align-items: center;
   position: fixed;
-  top: 83%;
+  top: 82%;
   left: 3%;
   z-index: 10;
 }
@@ -376,8 +377,8 @@ body::-webkit-scrollbar {
 
 
 .ayuda_boton_img{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background-color: #fff;
     border-radius: 50%;
     padding: 16px;
@@ -386,7 +387,7 @@ body::-webkit-scrollbar {
 
 .ayuda_texto{
     position: fixed;
-    top: 85%;
+    top: 84.5%;
     left: 5%;
     border-radius: 100px;
     z-index: 9;
@@ -398,26 +399,26 @@ body::-webkit-scrollbar {
     padding-left: 64px;
     text-align: center;
     box-shadow: 0px 8px 12px rgb(0 0 0 / 13%);
-     font-size: 2vh;
+     font-size: 2.2vh;
     line-height: 2vh;
 }
 
 
 .contenedor_filtros{
     position: fixed;
-    top: 43%;
+    top: 38%;
     left: 3%;
     z-index: 10;
     background-color: #fff;
     color: #333333;
     border-radius: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     min-width: 200px;
     width: 17%;
     box-shadow: 0px 8px 12px rgb(0 0 0 / 13%);
     height: 20%;
-    min-height: 245px;
+    min-height: 186px;
 }
 
 .contenedor_filtros::-webkit-scrollbar {
@@ -444,6 +445,13 @@ body::-webkit-scrollbar {
     background-color: #999999;
 }
 
+.cta_floating{
+  position: absolute;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0px;
+}
 
 
 .titulo_filtros{
@@ -452,6 +460,8 @@ body::-webkit-scrollbar {
     margin: 10% 10%;
     font-weight: 900;
 }
+
+
 
 .cta_filtros{
     font-size: 2.5vh;
@@ -494,7 +504,15 @@ body::-webkit-scrollbar {
   -ms-appearance: none;
 }
 
+.seleccionar_filtro{
+  font-size: 2vh !important;
+}
+nice-select{
+  font-size: 2.6vh !important;
+}
+
 .opt_filtro{
+  font-size: 2.6vh !important;
   border: none !important;
   outline: none !important;
 }
@@ -546,12 +564,13 @@ body::-webkit-scrollbar {
 }
 
 .punto_cultura {
+  transition: all 0.5s ease-out;
     top: 38.5%;
     left: 87.8%;
     width: 35.3%;
     height: 13%;
 	z-index: 9;
-    cursor: pointer;
+    /* cursor: pointer; */
 	overflow-y: hidden;
 }
 
@@ -570,7 +589,7 @@ body::-webkit-scrollbar {
     width: 32.5%;
     height: 12%;
 	z-index: 9;
-	cursor: pointer;
+	/* cursor: pointer; */
 	overflow-y: hidden;
 }
 
@@ -589,7 +608,7 @@ body::-webkit-scrollbar {
     width: 36.4%;
     height: 14.1%;
   z-index: 9;
-    cursor: pointer;
+    /* cursor: pointer; */
   overflow-y: hidden;
 }
 
@@ -608,7 +627,7 @@ body::-webkit-scrollbar {
     width: 30%;
     height: 12.7%;
 	z-index: 9;
-	cursor: pointer;
+	/* cursor: pointer; */
 	overflow-y: hidden;
 }
 
@@ -627,17 +646,20 @@ body::-webkit-scrollbar {
     width: 44%;
     height: 11%;
 	z-index: 9;
-    cursor: pointer;
+    /* cursor: pointer; */
 	overflow-y: hidden;
+  transition: all 0.5s ease-out;
 }
 
 .punto_naturaleza:hover .isla_naturaleza{
   display: inline;
+  transition: all 0.5s ease;
 }
 
 .isla_naturaleza {
   width: 100%;
   display: none;
+  
 }
 
 
@@ -647,7 +669,7 @@ body::-webkit-scrollbar {
     width: 28.5%;
     height: 14.6%;
 	z-index: 9;
-	cursor: pointer;
+	/* cursor: pointer; */
 	overflow-y: hidden;
 }
 
@@ -663,8 +685,12 @@ body::-webkit-scrollbar {
 
 .img_isla {
 	width: 100%;
+  transition: all 0.5s ease-out;
 }
-
+.img_isla:hover{
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
 
 .punto_publicacion_nueva {
     top: 50.5%;
@@ -717,6 +743,10 @@ body::-webkit-scrollbar {
   z-index: 9;
   cursor: pointer;
   position: relative !important;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 
@@ -1047,7 +1077,7 @@ opacity: 0.5;
   width: 95%;
   padding-bottom: 95%;
 	border: 3px solid white;
-	background-image: url('../images/icon_avatar_02.png');
+	background-image: url('../images/icon_avatar_03.png');
 	background-size: cover;
 }
 
